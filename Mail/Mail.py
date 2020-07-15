@@ -6,10 +6,6 @@ LOGIN    = FROMADDR
 PASSWORD = "pass"	# Write password of your mail
 TOADDRS  = ["receivermail"]	# Write receiver mail in list
 SUBJECT  = "Test"
-# List of names to be used in certificates
-NAMES = ['Ankur', 'Akshit' ] 
-# Font for name
-FONT = "C:/Windows/Fonts/AdobeArabic-Bold.otf"
 
 msg = "Whatever i wrote should be send" # Message you want to send
 
