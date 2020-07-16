@@ -1,5 +1,4 @@
 import smtplib	# Library used to send mail to any Internet machine with an SMTP
-from PIL import Image, ImageDraw, ImageFont  # Library used for image processing
 
 FROMADDR = "SenderMail" #Sender Mail
 LOGIN    = FROMADDR 
@@ -7,7 +6,7 @@ PASSWORD = "pass"	# Write password of your mail
 TOADDRS  = ["receivermail"]	# Write receiver mail in list
 SUBJECT  = "Test"
 
-msg = "Whatever i wrote should be send" # Message you want to send
+msg = "This mail is sent by using smtplib.😉😉" # Message you want to send
 
 server = smtplib.SMTP('smtp.gmail.com:587')
 server.set_debuglevel(1)
