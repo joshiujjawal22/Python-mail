@@ -6,6 +6,9 @@ from email import encoders
    
 SenderAdd = "ujjawal1291.cse18@chitkara.edu.in"
 ReceiverAdd = ["joshiujjawal22@gmail.com","joshiujjawal22@rediffmail.com"]	
+
+# Enter password
+password=input("Enter password")
    
 # instance of MIMEMultipart 
 msg = MIMEMultipart() 
@@ -53,7 +56,7 @@ server = smtplib.SMTP('smtp.gmail.com', 587)
 server.starttls() 
   
 # Authentication 
-server.login(SenderAdd, "Joshi@2000")  
+server.login(SenderAdd, password)  
   
 # sending the mail 
 server.sendmail(SenderAdd, ReceiverAdd, text) 
