@@ -21,8 +21,8 @@
 <br>
 **Less Secure apps** : [Less secure Apps](https://support.google.com/accounts/answer/6010255?hl=en)
 
-### Issue:
-- ``as_string()`` function is not working properly.It is having some issue regarding its parameter.
+### Issue Fixed:
+[x] ``as_string()`` function started functioning properly.
 
 **Note**:***No need to install any libraryu externally as it is already installed in python package.***
   
