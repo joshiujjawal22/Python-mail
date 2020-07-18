@@ -17,7 +17,8 @@ msg = MIMEMultipart()
 msg['From'] = SenderAdd 
   
 # storing the receivers email address  
-msg['To'] = ReceiverAdd 
+# Use join method if there is multiple people else directly ReceiverAdd
+msg['To'] = ",".join(ReceiverAdd) 
   
 # storing the subject  
 msg['Subject'] = "Subject of the Mail"
