@@ -24,5 +24,5 @@
 ### Issue Fixed:
 [x] ``as_string()`` function started functioning properly.
 
-**Note**:***No need to install any libraryu externally as it is already installed in python package.***
+**Note**:***No need to install any library externally as it is already installed in python package.***
   
