@@ -5,12 +5,13 @@
 ## Getting Started
 
 ### Requirements:
+- PILLOW Library(For image processing)
 - Smtp Library (No need to Install externally).
 - Two factor authentication of sender's gmail account should be turned off.
 - `Less Secure apps` setting should be enabled. 
 
 ### To Do:
-- Automation of mail of generated certificate.
+[x] Automation of mail of generated certificate.
 
 ### Queries regarding :
 **SMTP Library** : [SMTP](https://docs.python.org/3/library/smtplib.html) 
