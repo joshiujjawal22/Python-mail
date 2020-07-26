@@ -11,7 +11,7 @@
 - `Less Secure apps` setting should be enabled. 
 
 ### To Do:
-[x] Automation of mail of generated certificate.
+- [x] Automation of mail of generated certificate.
 
 ### Queries regarding :
 **SMTP Library** : [SMTP](https://docs.python.org/3/library/smtplib.html) 
